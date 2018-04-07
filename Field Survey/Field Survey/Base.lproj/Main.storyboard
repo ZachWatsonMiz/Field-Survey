@@ -54,13 +54,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFR-Rm-eNw">
-                                                    <rect key="frame" x="73" y="5" width="287" height="21"/>
+                                                    <rect key="frame" x="73" y="5" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpv-wM-OTu">
-                                                    <rect key="frame" x="73" y="34" width="42" height="21"/>
+                                                    <rect key="frame" x="73" y="28" width="287" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -69,11 +69,10 @@
                                             <constraints>
                                                 <constraint firstItem="1xI-kQ-Es2" firstAttribute="leading" secondItem="CLi-lf-Wc9" secondAttribute="leadingMargin" id="2eX-j6-6Dm"/>
                                                 <constraint firstItem="1xI-kQ-Es2" firstAttribute="centerY" secondItem="CLi-lf-Wc9" secondAttribute="centerY" id="UFG-qR-i7r"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Bpv-wM-OTu" secondAttribute="bottom" constant="-6" id="cma-yB-k6q"/>
                                                 <constraint firstItem="vFR-Rm-eNw" firstAttribute="leading" secondItem="1xI-kQ-Es2" secondAttribute="trailing" constant="8" id="dUH-jf-FGf"/>
                                                 <constraint firstItem="Bpv-wM-OTu" firstAttribute="leading" secondItem="1xI-kQ-Es2" secondAttribute="trailing" constant="8" id="ffT-bo-yld"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Bpv-wM-OTu" secondAttribute="trailing" constant="245" id="uMm-B7-sfY"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="vFR-Rm-eNw" secondAttribute="trailing" id="uYH-pH-piU"/>
+                                                <constraint firstItem="Bpv-wM-OTu" firstAttribute="top" secondItem="vFR-Rm-eNw" secondAttribute="bottom" constant="2" id="tGC-dS-j9S"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Bpv-wM-OTu" secondAttribute="trailing" id="wwj-SQ-ISf"/>
                                                 <constraint firstItem="vFR-Rm-eNw" firstAttribute="top" secondItem="CLi-lf-Wc9" secondAttribute="topMargin" constant="-6" id="ytU-kI-wpx"/>
                                             </constraints>
                                         </tableViewCellContentView>

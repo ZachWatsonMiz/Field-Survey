@@ -21,6 +21,7 @@ class SurveyDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Observation"
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
 
